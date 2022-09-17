@@ -1,8 +1,8 @@
-let precios = [1000, 2000, 5000];
-let cantidad = 5;
+let vocales = ['a','e','i','o','u'];
 
-for (let valor of precios) {
-    valor *= cantidad;
-    console.log(valor);
+vocales.forEach(function(element,index,arreglo,){
 
-}
+    console.log(element);
+    console.log(index);
+    console.log(arreglo);
+})
