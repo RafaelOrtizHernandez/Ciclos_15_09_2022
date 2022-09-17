@@ -1,8 +1,12 @@
-let vocales = ['a','e','i','o','u'];
 
-vocales.forEach(function(element,index,arreglo,){
+let animales = [
+    {nombre: 'perro', tipo :'mamifero'},
+    {nombre: 'aguila', tipo :'ave'},
+    {nombre: 'rana', tipo :'anfibio'}
+];
 
-    console.log(element);
-    console.log(index);
-    console.log(arreglo);
+let nombreAnimales = animales.map(function(animal){
+    return animal.nombre
 })
+
+console.log(nombreAnimales);
