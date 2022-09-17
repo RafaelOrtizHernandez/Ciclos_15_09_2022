@@ -1,12 +1,7 @@
 
-let animales = [
-    {nombre: 'perro', tipo :'mamifero'},
-    {nombre: 'aguila', tipo :'ave'},
-    {nombre: 'rana', tipo :'anfibio'}
-];
+let valor = 0;
 
-let nombreAnimales = animales.map(function(animal){
-    return animal.nombre
-})
-
-console.log(nombreAnimales);
+while(valor < 100){
+    valor +=5;
+    console.log(valor);
+}
