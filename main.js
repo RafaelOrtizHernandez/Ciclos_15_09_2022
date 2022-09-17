@@ -1,7 +1,9 @@
 
 let valor = 0;
 
-while(valor < 100){
+do{
     valor +=5;
     console.log(valor);
+    
 }
+while(valor < 100);
